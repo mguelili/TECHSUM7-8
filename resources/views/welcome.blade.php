@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('content')<div class="card"><h1>Tasks for Today</h1><p>A simple task management system rebuilt in Laravel with protected management actions and completion email notifications.</p><a class="btn" href="{{ route('tasks.index') }}">View task list</a></div>@endsection

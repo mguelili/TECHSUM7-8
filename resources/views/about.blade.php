@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('content')<div class="card"><h1>About</h1><p>This laboratory project demonstrates Laravel CRUD, Breeze-style authentication, validation, soft deletion with <code>is_archived</code>, and a log-driver email notification when a task first becomes done.</p></div>@endsection

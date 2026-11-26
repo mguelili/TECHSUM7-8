@@ -1,0 +1,11 @@
+{
+  "name": "ferrence/alagad-techsum2-laravel",
+  "type": "project",
+  "require": {"php": "^8.2", "laravel/framework": "^11.0", "laravel/tinker": "^2.9"},
+  "require-dev": {"fakerphp/faker": "^1.24", "laravel/breeze": "^2.1", "laravel/pint": "^1.13", "mockery/mockery": "^1.6", "nunomaduro/collision": "^8.1", "phpunit/phpunit": "^10.5"},
+  "autoload": {"psr-4": {"App\\": "app/", "Database\\Factories\\": "database/factories/", "Database\\Seeders\\": "database/seeders/"}},
+  "config": {"audit": {"block-insecure": false}},
+  "scripts": {"post-autoload-dump": ["@php artisan package:discover --ansi"], "dev": "php artisan serve"},
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
